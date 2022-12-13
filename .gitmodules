@@ -1,0 +1,4 @@
+[submodule "externals/phpmailer-6"]
+	path = externals/phpmailer-6
+	url = https://github.com/PHPMailer/PHPMailer.git
+	tag = v6.7.1
