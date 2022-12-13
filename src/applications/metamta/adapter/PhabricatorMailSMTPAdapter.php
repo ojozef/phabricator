@@ -47,8 +47,10 @@ final class PhabricatorMailSMTPAdapter
   public function sendMessage(PhabricatorMailExternalMessage $message) {
     $root = phutil_get_library_root('phabricator');
     $root = dirname($root);
-    require_once $root.'/externals/phpmailer/class.phpmailer.php';
-    $smtp = new PHPMailer($use_exceptions = true);
+    require_once $root.'/externals/phpmailer-6/src/PHPMailer.php';
+    require_once $root.'/externals/phpmailer-6/src/SMTP.php';
+    require_once $root.'/externals/phpmailer-6/src/Exception.php';
+    $smtp = new PHPMailer\PHPMailer\PHPMailer($use_exceptions = true);
 
     $smtp->CharSet = 'utf-8';
     $smtp->Encoding = 'base64';
