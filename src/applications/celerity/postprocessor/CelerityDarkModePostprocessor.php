@@ -184,11 +184,12 @@ final class CelerityDarkModePostprocessor
       'sh-disabledbackground'   => '#f3f3f3',
 
       // Diffs
-      'diff.background' => '#121b27',
-      'new-background' => 'rgba(151, 234, 151, .55)',
-      'new-bright' => 'rgba(151, 234, 151, .75)',
-      'old-background' => 'rgba(251, 175, 175, .55)',
-      'old-bright' => 'rgba(251, 175, 175, .8)',
+      'diff.background' => '#1d1f21',
+      'new-background' => 'rgba(51, 255, 51, 0.2)',
+      'new-bright' => 'rgba(51, 255, 51, 0.1)',
+      'old-background' => 'rgba(255, 51, 51, .2)',
+      'old-bright' => 'rgba(255, 51, 51, 0.15)',
+
       'move-background' => '#faca00',
       'copy-background' => '#f1c40f',
 
