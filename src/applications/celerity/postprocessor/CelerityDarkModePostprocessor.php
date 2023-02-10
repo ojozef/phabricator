@@ -186,7 +186,7 @@ final class CelerityDarkModePostprocessor
       // Diffs
       'diff.background' => '#1d1f21',
       'new-background' => 'rgba(51, 255, 51, 0.2)',
-      'new-bright' => 'rgba(51, 255, 51, 0.1)',
+      'new-bright' => 'rgba(51, 255, 51, 0.05)',
       'old-background' => 'rgba(255, 51, 51, .2)',
       'old-bright' => 'rgba(255, 51, 51, 0.15)',
 
