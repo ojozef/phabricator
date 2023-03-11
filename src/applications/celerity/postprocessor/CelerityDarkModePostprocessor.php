@@ -132,7 +132,7 @@ final class CelerityDarkModePostprocessor
       'sh-yellowborder'       => '#c9b8a8',
       'sh-yellowicon'         => '#9b946e',
       'sh-yellowtext'         => '#726f56',
-      'sh-yellowbackground'   => '#fdf3da',
+      'sh-yellowbackground'   => '#8d6500',
 
       // Shade Green
       'sh-lightgreenborder'   => '#c6e6c7',
